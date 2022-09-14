@@ -1,0 +1,14 @@
+.clientFilter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+}
+
+.odd{
+ background-color: #f2f2f2;
+}
+.nodd{
+    background-color: white;
+}

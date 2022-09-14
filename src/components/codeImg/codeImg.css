@@ -1,0 +1,8 @@
+.codeImg{
+    height: 32px;
+    
+}
+.codeImg svg{
+    width: 100px;
+    height: 100%;
+}

@@ -1,0 +1,58 @@
+.dataFilter{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+}
+/* #dataManageForm input,select{
+    width: 200px;
+} */
+
+.cardList{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    /* overflow : scroll; */
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.cardList::-webkit-scrollbar {
+
+    display: none; /* Chrome Safari */
+  
+  }
+
+.pagiFooter{
+ margin-bottom: 15px;
+}
+.cardList > ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:  space-between;
+    /* z-index: 0; */
+   
+}
+.cardList > ul >li {
+    /* float: left; */
+    /* margin-right: 15px; */
+    margin-bottom: 15px;
+    width: 255px;
+    /* max-width: 230px; */
+    /* height: 100%; */
+    /* flex: 1 1 auto; */
+
+   /* float: left; */
+}
+/* .cardList > ul >li:nth-child(5n){
+    margin-right: 0;
+} */
+#dataManageForm .ant-col{
+    padding-right: 15px;
+}

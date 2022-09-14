@@ -1,0 +1,30 @@
+.login {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image:url('~@/assets/image/1.jpg');
+
+    .login_form {
+        background-color: white;
+        opacity: .9;
+        // height: 500px;
+        width: 50vw;
+        padding: 40px;
+
+       
+
+        img {
+            transform: translateY(-3px);
+           transition: 0.4s ;
+        }
+    }
+
+    input:focus {
+        padding: 6.5px 11px;
+        font-size: 16px;
+    }
+   
+}

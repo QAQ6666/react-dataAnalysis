@@ -1,0 +1,16 @@
+.tableFilter{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 3px solid white;
+    width: 100%;
+}
+.tableFilterInput {
+    width: 10vw;
+}
+.inputRadius{
+    /* border-radius: 10px; */
+
+}
